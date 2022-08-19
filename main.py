@@ -58,8 +58,8 @@ if choice == "1":
         os.system("clear")
         for i in range(0,num+1):
 
-            files = "" + "".join(random.choices(string.ascii_letters, k=20))
-            print(f"searching links... | {i}/{num}                                                     " + files + ".txt")
+            files = "" + "".join(random.choices(string.ascii_letters, k=24))
+            print(f"searching links... | {i}/{num}                                                     https://discord.gift/" + files)
             sleep(0.01)
             os.system("cls")
             print("\n")
